@@ -1,0 +1,10 @@
+<section [class] = "'allThemeComponent ' + (showSelector ? '' : 'hiddenThemeSelector') ">
+  <div class="switcherContainer" (click)="toogleThemeSelector()">
+    <div id="selectedSwitchTheme" class="elipse"></div>
+  </div>
+  <div class="themeSelectorContainer">
+    <div *ngFor="let theme of themes" class="elipse themeSelector" 
+    [style]="'background-color: ' + theme.primaryColor"
+    (click)="changeTheme(theme.name)"></div>
+  </div>
+</section>

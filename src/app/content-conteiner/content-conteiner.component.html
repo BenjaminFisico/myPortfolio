@@ -1,0 +1,7 @@
+<div class="backContainer border maxContentWitdh">
+    <h2> {{tittle}}</h2>
+    <div class="container border">
+        <div [innerHTML]="content" class="content"></div>
+    </div>
+    <h2 [class]="link ? '':'bottomSeparator'"><strong><a [href]="link">- Ver más -</a></strong></h2>
+</div>

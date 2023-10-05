@@ -1,0 +1,7 @@
+<div *ngFor="let proyect of proyects">
+    <app-content-conteiner [tittle]="proyect.name" 
+                           [content]="proyect.htmlContent"
+                           [link]="'/home/proyect/' + proyect.id"></app-content-conteiner>
+</div>
+
+<app-pagination [collectionSize]="amountProyects" [perPage]="perPage" (changePageEvent)="changePage($event)"></app-pagination>
