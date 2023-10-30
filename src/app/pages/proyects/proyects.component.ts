@@ -10,7 +10,7 @@ import { ProyectsService } from 'src/app/services/proyects.servise';
 export class ProyectsComponent implements OnInit{
   proyects: proyect[] = [];
   amountProyects:number = 0;
-  perPage = 3;
+  perPage = 4;
 
   constructor(private proyectsService: ProyectsService){}
 

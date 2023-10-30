@@ -2,6 +2,20 @@ import { proyect } from "../interfaces/proyectStructure";
 
 export const PROYECTS: proyect[] = [
     {
+        id: 5,
+        name:"Frontend - Ecomerce libreria Angular",
+        htmlContent: '\
+        <h3>Proyecto de frontEnd para una página de venta de libros online</h3>\
+        <img loading="lazy" class="imgclass border" src="https://images2.imgbox.com/33/bb/bg87ZxoD_o.png"> \
+        <p>Este proyecto esta creado con el fin de practicar mis habilidades de frontend.</p> \
+        <p>El mismo contiene un apartado que permite ver todos los libros subidos a la página, un carrito de compras y una página principal con novedades</p> \
+        <p>Tambien resulto interesante desarrollar la logica de varios componentes de la misma, como un carousel infinito para ver los libros "nuevos" </p> \
+        <p>Obviamente todos los datos que se muestran en la página no cargan desde una API, sino que fueron puestos como constantes en el proyecto porque esta vez quise enfocarme en practicar frontend</p> \
+        <p>Link de demostracion: <strong><a href="https://ecomerce-libreria-angular.vercel.app/home" target="_blank">Ecomerce libreria Angular<a/></strong></p> \
+        <p>Repositorio: <strong><a href="https://github.com/BenjaminFisico/EcomerceLibreriaAngular" target="_blank">Git hub - Ecomerce libreria<a/></strong></p> \
+        '
+    },
+    {
         id: 1,
         name:"Mi portfolio",
         htmlContent: ' \
